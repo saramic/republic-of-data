@@ -7,6 +7,7 @@
 ## Charts
 
   - [ggplot](http://ggplot.yhathq.com/)
+  - [Altair](https://altair-viz.github.io/) - next level python charts?
 
 ## Data2App - visualisations
 

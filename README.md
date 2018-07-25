@@ -4,9 +4,12 @@ Melbourne Datathon 2018
 
 ## In progress
 
-  - @saramic - getting a reactjs D3.js app running for our data2app
+  - Michael M - @saramic - getting a reactjs D3.js app running for our data2app
   - @ocisly - getting jupyter notebook up and running
-  - @Suzan - I don't know
+  - Dickson @dicksonk - starting to look at the scan on/off data
+  - Michael S -->exploring the possible question to ask (and find the answer from the data)
+              -->what can segamaker servier (AWS) can do for us.
+  - Suzan - I don't know
   
 ## stuff
 - Data2App

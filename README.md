@@ -1,6 +1,12 @@
 # the-D-team-2018
+
 Melbourne Datathon 2018
 
+## In progress
+
+  - @saramic - getting a reactjs D3.js app running for our data2app
+  
+## stuff
 - Data2App
   - get an initial end to end deploy out there:
     1. using original data

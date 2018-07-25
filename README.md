@@ -12,6 +12,7 @@ Melbourne Datathon 2018
   - initial test of this deployment pipeline could be as simple as count of a number of data points, the key here is iterate on the solution
   
 - [Insights](insights/README.md)
+- [INSTALL](INSTALL.md)
 
 # Plan
 

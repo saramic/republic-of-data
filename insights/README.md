@@ -33,6 +33,8 @@
   - new trams e-class trams, what impact has this had?
   - how can we find outliers? how can we clean the data?
   - disasters, protests, natural disasters, floods
+  - impact of food delivery, deliveroo, coles delivery, uber eats, etc on transport
+    - when where these services started?
 
 ## Answers
 

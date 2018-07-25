@@ -36,7 +36,9 @@
   - impact of food delivery, deliveroo, coles delivery, uber eats, etc on transport
     - when where these services started?
   - in peak hour people may not touch on as they cannot get to the touch on machine
-
+  - suburb growth correlation to transport
+  - school population growth?
+  
 ## Answers
 
   - [What data do we have?](README.md#what-data-do-we-have)

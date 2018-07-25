@@ -42,6 +42,42 @@ Melbourne Datathon 2018
     * what they most want to get out of the next 2 months
     * what they can help with
     * what inspires them most as working as part of a team
+    * Adam
+      - machine learning, data science
+      - software engineering, munging, data pipelines, data engineering
+      - getting together and working on stuff
+    * Michael S
+      - get into data science area - this is a good opportunity to dive in
+      - AWS architect, db, moving data, massaging data
+      - same interest
+    * Ariel
+      - hone skills, learn from others, and build product from scratch
+      - SQL, statistics, tableau, R and python
+      - excited to build product from scratch - the unkown
+    * Dickson
+      - how to productionize an end to end solution
+      - ML mostly - python scikitlearn
+      - get something out of the data - don't let the data just sit there
+    * Selena
+      - no idea about data science - want to learn, ran python only the other day
+      - data2app help, cloud, software engineer
+      - pairing, working with other people, teach and learn - particularily in person
+    * Suzan
+      - python, cloud
+      - R, tablau, SQL, ML, data analysis
+      - working with other people
+    * Michael M
+      - we are all excited at the end and contributing and we have an app
+      - web, pushing people
+      - pairing, working with others who are passionate
+    * Michał
+      - ML, spend time with other people who want to do more then the regular basis
+      - R but like python, ML and some more advanced topics
+      - opportunity to learn and work with others
+    * Tomasz
+      - willing to learn
+      - cannot help with mic
+      - :D
 
 * **Questions**
   * When is the submission for Data2App?

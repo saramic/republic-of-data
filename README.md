@@ -13,6 +13,7 @@ Melbourne Datathon 2018
   
 - [Insights](insights/README.md)
 - [INSTALL](INSTALL.md)
+- [Inspiration](inspiration.md)
 
 # Plan
 

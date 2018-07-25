@@ -5,7 +5,7 @@ Melbourne Datathon 2018
 ## Format
 
   - Upload as jupyter notebook format, can be either R or Python
-  - Include the library as well as the version that used in the notebook
+  - Include the library version that used in the notebook
 
 ## In progress
 

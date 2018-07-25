@@ -1,6 +1,18 @@
 # the-D-team-2018
 Melbourne Datathon 2018
 
+- Data2App
+  - get an initial end to end deploy out there:
+    1. using original data
+    1. process data
+    1. host data
+    1. make some analysis of data available online
+    1. deploy an app
+    1. the app should allow user to see that data
+  - initial test of this deployment pipeline could be as simple as count of a number of data points, the key here is iterate on the solution
+  
+- [Insights](insights/README.md)
+
 # Plan
 
 ### Wed 25 July

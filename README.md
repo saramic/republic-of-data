@@ -14,6 +14,7 @@ Melbourne Datathon 2018
   - Dickson @dicksonk - starting to look at the scan on/off data
   - Michael S -->exploring the possible question to ask (and find the answer from the data)
               -->what can segamaker servier (AWS) can do for us.
+              -->where do we consolidate the myki card read data. AWS RDS(Aurora with Postgres Flavour or Redshift)
   - Suzan - I don't know
   - @arielma & @selenasmall Thinking about questions we want to find answer for.
   

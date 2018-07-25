@@ -22,6 +22,9 @@ Melbourne Datathon 2018
     1. deploy an app
     1. the app should allow user to see that data
   - initial test of this deployment pipeline could be as simple as count of a number of data points, the key here is iterate on the solution
+  * **Ideas**
+    * touch on as API - order me a coffee on arrival at office - what is the potential?
+    * weather forcast - to drive pre-ordering parking - dictated by forecast not weather - could we get parking data?
   
 - [Insights](insights/README.md)
 - [INSTALL](INSTALL.md)

@@ -6,7 +6,7 @@
 
 ## Answers
 
-  - [What data do we have?](insights#what-data-do-we-have?)
+  - [What data do we have?](README.md#what-data-do-we-have)
 
 ### What data do we have?
 

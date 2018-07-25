@@ -6,7 +6,7 @@
 
   on Mac
 
-  1. download
+  1. [download QGIS3](https://www.qgis.org/en/site/forusers/download.html)
   1. assuming `brew install python3`
   1. link to appropriate location for QGIS installer to find it [according to stackoverflow](https://gis.stackexchange.com/questions/274381/installing-qgis3-on-mac#answer-274600)
   ```sh

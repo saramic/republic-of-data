@@ -2,7 +2,7 @@
 
 # QGIS
 
-  for viewing geospacial data
+  for exploring geospatial data
 
   on Mac
 
@@ -66,4 +66,33 @@
   ModuleNotFoundError: No module named 'osgeo' 
   ...
 
+  ```
+
+  on Windows: 
+  - grab one of the exe installers from [this page](https://qgis.org/en/site/forusers/download.html) and install it
+
+
+  on Ubuntu 16.04 Linux:
+  - install QGIS
+  ```sh
+  sudo sh -c 'echo "deb http://qgis.org/debian xenial main" >> /etc/apt/sources.list'  
+  sudo sh -c 'echo "deb-src http://qgis.org/debian xenial main " >> /etc/apt/sources.list'  
+  wget -O - https://qgis.org/downloads/qgis-2016.gpg.key | gpg --import
+  gpg --fingerprint 073D307A618E5811
+  gpg --export --armor 073D307A618E5811 | sudo apt-key add -
+  sudo apt-get update
+  sudo apt-get install qgis python-qgis
+  ```
+
+  - update QGIS
+  ```sh
+  sudo apt-get update
+  sudo apt-get install --only-upgrade qgis python-qgis
+  ```
+
+  - remove QGIS
+  ```sh
+  sudo apt-get autoremove qgis
+  sudo apt-get --purge remove qgis python-qgis qgis-plugin-grass
+  sudo apt-get autoremove
   ```

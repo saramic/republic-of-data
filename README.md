@@ -9,8 +9,9 @@ Melbourne Datathon 2018
   - Dickson @dicksonk - starting to look at the scan on/off data
   - Michael S -->exploring the possible question to ask (and find the answer from the data)
               -->what can segamaker servier (AWS) can do for us.
+  - @arielma Thinking about questions we want to find answer for.
   
-## Stuff
+## stuff
 - Data2App
   - get an initial end to end deploy out there:
     1. using original data

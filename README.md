@@ -10,6 +10,7 @@ Melbourne Datathon 2018
   - Michael S -->exploring the possible question to ask (and find the answer from the data)
               -->what can segamaker servier (AWS) can do for us.
   - Suzan - I don't know
+  - @arielma Thinking about questions we want to find answer for.
   
 ## stuff
 - Data2App

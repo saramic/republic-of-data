@@ -35,6 +35,7 @@
   - disasters, protests, natural disasters, floods
   - impact of food delivery, deliveroo, coles delivery, uber eats, etc on transport
     - when where these services started?
+  - in peak hour people may not touch on as they cannot get to the touch on machine
 
 ## Answers
 

@@ -6,6 +6,7 @@ Melbourne Datathon 2018
 
   - @saramic - getting a reactjs D3.js app running for our data2app
   - @ocisly - getting jupyter notebook up and running
+  - @dicksonk (Dickson) - starting to look at the scan on/off data
   
 ## stuff
 - Data2App

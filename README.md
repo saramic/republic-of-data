@@ -10,7 +10,7 @@ Melbourne Datathon 2018
   - Michael S -->exploring the possible question to ask (and find the answer from the data)
               -->what can segamaker servier (AWS) can do for us.
   
-## stuff
+## Stuff
 - Data2App
   - get an initial end to end deploy out there:
     1. using original data

@@ -47,6 +47,21 @@ Melbourne Datathon 2018
 
 ### Sat 28th July
 
+* Availability
+
+  | Hacker    | arrive | leave  | arrive | leave |
+  | --------- | ------ | ------ | ------ | ----- |
+  | Adam      |        |        |        |       |
+  | Ariel     |        |        |        |       |
+  | Dickson   |        |        |        |       |
+  | John      |        |        |        |       |
+  | Michał    |        |        |        |       |
+  | Michael M | 10:30am| 2:30pm |    4pm |   8pm |
+  | Michael S |        |        |        |       |
+  | Selena    |    9am |   -    |    -   |  12am |
+  | Suzan     |        |        |        |       |
+  | Tomasz    |        |        |        |       |
+
 * Michael M (@saramic) Goals
   * pair with everyone - 30-60 minutes with the aim of a commit
     - [ ] John - get up and running with QGIS and the potential and options of
@@ -57,13 +72,13 @@ Melbourne Datathon 2018
     - [ ] Dickson - python notebook something?
     - [ ] Selena - data2app setup and deploy
     - [ ] Adam - data pipeline setup
-* Team goals?
 
-  [ ] commits to insights
-  [ ] data in cloud
-  [ ] team registered
-  [ ] team AWS credits
-  [ ] basic pipeline from data -> app
+* Team goals?
+  - [ ] commits to insights
+  - [ ] data in cloud
+  - [ ] team registered
+  - [ ] team AWS credits
+  - [ ] basic pipeline from data -> app
 
 * **Questions**
   * When is the submission for Data2App?

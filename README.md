@@ -58,6 +58,7 @@ Melbourne Datathon 2018
     - [ ] Selena - data2app setup and deploy
     - [ ] Adam - data pipeline setup
 * Team goals?
+
   [ ] commits to insights
   [ ] data in cloud
   [ ] team registered

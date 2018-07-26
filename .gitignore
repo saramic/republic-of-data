@@ -56,3 +56,6 @@ rsconnect/
 
 
 # End of https://www.gitignore.io/api/r
+
+# don't commit the data
+MelbDatathon2018

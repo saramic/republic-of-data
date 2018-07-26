@@ -21,6 +21,7 @@ Melbourne Datathon 2018
   - Suzan - I don't know
   - @arielma & @selenasmall Thinking about questions we want to find answer
     for.
+  - @arielma researching on car_speed data
 
 ## Findings
 

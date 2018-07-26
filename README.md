@@ -57,7 +57,7 @@ Melbourne Datathon 2018
   | John      |        |        |        |       |
   | Michał    |        |        |        |       |
   | Michael M | 10:30am| 2:30pm |    4pm |   8pm |
-  | Michael S |        |        |        |       |
+  | Michael S | 10:30am| 5:00pm |        |       |
   | Selena    |    9am |   -    |    -   |  12am |
   | Suzan     |        |        |        |       |
   | Tomasz    |        |        |        |       |

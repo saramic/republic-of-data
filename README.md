@@ -52,7 +52,7 @@ Melbourne Datathon 2018
 
   | Hacker    | arrive | leave  | arrive | leave |
   | --------- | ------ | ------ | ------ | ----- |
-  | Adam      |  9:00am|        |        | 6:00pm|
+  | Adam      |  9:30am|        |        | 6:00pm|
   | Ariel     | 10:30am|        |        |  late |
   | Dickson   |        |        |        |       |
   | John      |        |        |        |       |

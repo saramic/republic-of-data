@@ -44,6 +44,7 @@ I guess Route 1 is South Kensington and actually includes the loop?
 
 
 | RouteID | StopID | StopNameShort | GPSLat | GPSLong |
+| ------- | ------ | ------------- | ------ | ------- |
 | 1 | 64403 |  |  |  |
 | 1 | 64406 |  |  |  |
 | 1 | 64408 |  |  |  |

@@ -1,0 +1,4425 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.2.0-Bonn" projectname="data overview">
+  <homePath path="/Users/michael/projects/me/republic-of-data"/>
+  <title>data overview</title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+      <srsid>3415</srsid>
+      <srid>4283</srid>
+      <authid>EPSG:4283</authid>
+      <description>GDA94</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="ptv">
+      <customproperties/>
+      <layer-tree-layer expanded="1" id="ptv_metro_bus_stop_7319201c_1fa1_49e0_bdec_d1c01f6560e4" checked="Qt::Checked" name="ptv_metro_bus_stop" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_metro_bus_stop.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_metro_train_station_2f665ec1_bd83_4992_b971_433cbb3632cd" checked="Qt::Unchecked" name="ptv_metro_train_station" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_metro_train_station.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_metro_tram_route_ef64958a_4e9c_4e5e_8637_1c178b67043f" checked="Qt::Unchecked" name="ptv_metro_tram_route" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_metro_tram_route.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_metro_tram_stop_b1571900_25b8_4d3f_a433_5f69e2ef9fdc" checked="Qt::Unchecked" name="ptv_metro_tram_stop" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_metro_tram_stop.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_night_bus_route_fbae157f_57ec_466b_9240_07257948457a" checked="Qt::Unchecked" name="ptv_night_bus_route" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_night_bus_route.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_night_bus_stop_4d7ec624_3121_4f28_a191_aaade2d28177" checked="Qt::Unchecked" name="ptv_night_bus_stop" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_night_bus_stop.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_regional_bus_route_f0984060_ac8d_400f_a0c0_7df1bdd1099e" checked="Qt::Unchecked" name="ptv_regional_bus_route" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_regional_bus_route.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_regional_bus_stop_903215eb_55b7_45f3_b6fb_b6b7d70a4656" checked="Qt::Unchecked" name="ptv_regional_bus_stop" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_regional_bus_stop.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_regional_coach_route_6d534933_40c3_4167_bfe4_c299561bf072" checked="Qt::Unchecked" name="ptv_regional_coach_route" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_regional_coach_route.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_regional_coach_stop_eddd02f8_62db_414a_9d81_c2e1a3e89ff7" checked="Qt::Unchecked" name="ptv_regional_coach_stop" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_regional_coach_stop.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_regional_train_station_3c5e6e7b_9072_41a5_be50_c2430d257f33" checked="Qt::Unchecked" name="ptv_regional_train_station" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_regional_train_station.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_skybus_route_4c3b4bbb_5d30_4189_bf06_435b9a1bbffd" checked="Qt::Unchecked" name="ptv_skybus_route" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_skybus_route.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_skybus_stop_9ceeb2cb_b9ad_44a3_8b9b_ed0400d3c3f8" checked="Qt::Unchecked" name="ptv_skybus_stop" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_skybus_stop.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_train_carpark_db19c7a1_6856_4331_aca3_9557f798d234" checked="Qt::Unchecked" name="ptv_train_carpark" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_train_carpark.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_train_corridor_centreline_b6c6b3c8_99a8_46e4_8117_4b7471893e06" checked="Qt::Unchecked" name="ptv_train_corridor_centreline" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_train_corridor_centreline.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_train_station_bike_storage_2c1dae13_929e_4fb3_8166_09889f9c3ad1" checked="Qt::Unchecked" name="ptv_train_station_bike_storage" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_train_station_bike_storage.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_train_station_platform_aa3a00f6_d942_42e1_a07f_0440da57151d" checked="Qt::Unchecked" name="ptv_train_station_platform" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_train_station_platform.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_train_track_centreline_e7122fff_1fc1_4e8e_8904_9d652e7e1cbe" checked="Qt::Unchecked" name="ptv_train_track_centreline" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_train_track_centreline.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_tram_track_centreline_9c094aa6_4010_47a4_bd9f_3b9e1b1933b5" checked="Qt::Unchecked" name="ptv_tram_track_centreline" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_tram_track_centreline.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" id="ptv_metro_bus_route_7080c150_4b61_43b5_88e6_22d4f1dc477a" checked="Qt::Unchecked" name="ptv_metro_bus_route" providerKey="ogr" source="../MelbDatathon2018/spatial-data/ptv/ptv_metro_bus_route.shp">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <custom-order enabled="0">
+      <item>ptv_metro_bus_route_7080c150_4b61_43b5_88e6_22d4f1dc477a</item>
+      <item>ptv_tram_track_centreline_9c094aa6_4010_47a4_bd9f_3b9e1b1933b5</item>
+      <item>ptv_train_track_centreline_e7122fff_1fc1_4e8e_8904_9d652e7e1cbe</item>
+      <item>ptv_train_station_platform_aa3a00f6_d942_42e1_a07f_0440da57151d</item>
+      <item>ptv_train_station_bike_storage_2c1dae13_929e_4fb3_8166_09889f9c3ad1</item>
+      <item>ptv_train_corridor_centreline_b6c6b3c8_99a8_46e4_8117_4b7471893e06</item>
+      <item>ptv_train_carpark_db19c7a1_6856_4331_aca3_9557f798d234</item>
+      <item>ptv_skybus_stop_9ceeb2cb_b9ad_44a3_8b9b_ed0400d3c3f8</item>
+      <item>ptv_skybus_route_4c3b4bbb_5d30_4189_bf06_435b9a1bbffd</item>
+      <item>ptv_regional_train_station_3c5e6e7b_9072_41a5_be50_c2430d257f33</item>
+      <item>ptv_regional_coach_stop_eddd02f8_62db_414a_9d81_c2e1a3e89ff7</item>
+      <item>ptv_regional_coach_route_6d534933_40c3_4167_bfe4_c299561bf072</item>
+      <item>ptv_regional_bus_stop_903215eb_55b7_45f3_b6fb_b6b7d70a4656</item>
+      <item>ptv_regional_bus_route_f0984060_ac8d_400f_a0c0_7df1bdd1099e</item>
+      <item>ptv_night_bus_stop_4d7ec624_3121_4f28_a191_aaade2d28177</item>
+      <item>ptv_night_bus_route_fbae157f_57ec_466b_9240_07257948457a</item>
+      <item>ptv_metro_tram_stop_b1571900_25b8_4d3f_a433_5f69e2ef9fdc</item>
+      <item>ptv_metro_tram_route_ef64958a_4e9c_4e5e_8637_1c178b67043f</item>
+      <item>ptv_metro_train_station_2f665ec1_bd83_4992_b971_433cbb3632cd</item>
+      <item>ptv_metro_bus_stop_7319201c_1fa1_49e0_bdec_d1c01f6560e4</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings tolerance="12" enabled="0" type="1" intersection-snapping="0" mode="2" unit="1">
+    <individual-layer-settings>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_regional_coach_route_6d534933_40c3_4167_bfe4_c299561bf072" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_night_bus_route_fbae157f_57ec_466b_9240_07257948457a" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_night_bus_stop_4d7ec624_3121_4f28_a191_aaade2d28177" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_regional_bus_route_f0984060_ac8d_400f_a0c0_7df1bdd1099e" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_regional_coach_stop_eddd02f8_62db_414a_9d81_c2e1a3e89ff7" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_train_station_bike_storage_2c1dae13_929e_4fb3_8166_09889f9c3ad1" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_train_carpark_db19c7a1_6856_4331_aca3_9557f798d234" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_metro_train_station_2f665ec1_bd83_4992_b971_433cbb3632cd" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_metro_bus_route_7080c150_4b61_43b5_88e6_22d4f1dc477a" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_metro_tram_stop_b1571900_25b8_4d3f_a433_5f69e2ef9fdc" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_metro_tram_route_ef64958a_4e9c_4e5e_8637_1c178b67043f" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_metro_bus_stop_7319201c_1fa1_49e0_bdec_d1c01f6560e4" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_train_corridor_centreline_b6c6b3c8_99a8_46e4_8117_4b7471893e06" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_tram_track_centreline_9c094aa6_4010_47a4_bd9f_3b9e1b1933b5" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_skybus_route_4c3b4bbb_5d30_4189_bf06_435b9a1bbffd" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_regional_train_station_3c5e6e7b_9072_41a5_be50_c2430d257f33" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_train_track_centreline_e7122fff_1fc1_4e8e_8904_9d652e7e1cbe" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_regional_bus_stop_903215eb_55b7_45f3_b6fb_b6b7d70a4656" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_train_station_platform_aa3a00f6_d942_42e1_a07f_0440da57151d" units="1"/>
+      <layer-setting tolerance="12" enabled="0" type="1" id="ptv_skybus_stop_9ceeb2cb_b9ad_44a3_8b9b_ed0400d3c3f8" units="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>144.20466646725239457</xmin>
+      <ymin>-38.50753407499998104</ymin>
+      <xmax>146.25047153274735479</xmax>
+      <ymax>-37.15777692500013529</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+        <srsid>3415</srsid>
+        <srid>4283</srid>
+        <authid>EPSG:4283</authid>
+        <description>GDA94</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendgroup checked="Qt::Checked" name="ptv" open="true">
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" name="ptv_metro_bus_stop" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_metro_bus_stop_7319201c_1fa1_49e0_bdec_d1c01f6560e4" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_metro_train_station" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_metro_train_station_2f665ec1_bd83_4992_b971_433cbb3632cd" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_metro_tram_route" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_metro_tram_route_ef64958a_4e9c_4e5e_8637_1c178b67043f" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_metro_tram_stop" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_metro_tram_stop_b1571900_25b8_4d3f_a433_5f69e2ef9fdc" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_night_bus_route" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_night_bus_route_fbae157f_57ec_466b_9240_07257948457a" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_night_bus_stop" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_night_bus_stop_4d7ec624_3121_4f28_a191_aaade2d28177" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_regional_bus_route" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_regional_bus_route_f0984060_ac8d_400f_a0c0_7df1bdd1099e" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_regional_bus_stop" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_regional_bus_stop_903215eb_55b7_45f3_b6fb_b6b7d70a4656" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_regional_coach_route" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_regional_coach_route_6d534933_40c3_4167_bfe4_c299561bf072" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_regional_coach_stop" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_regional_coach_stop_eddd02f8_62db_414a_9d81_c2e1a3e89ff7" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_regional_train_station" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_regional_train_station_3c5e6e7b_9072_41a5_be50_c2430d257f33" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_skybus_route" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_skybus_route_4c3b4bbb_5d30_4189_bf06_435b9a1bbffd" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_skybus_stop" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_skybus_stop_9ceeb2cb_b9ad_44a3_8b9b_ed0400d3c3f8" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_train_carpark" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_train_carpark_db19c7a1_6856_4331_aca3_9557f798d234" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_train_corridor_centreline" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_train_corridor_centreline_b6c6b3c8_99a8_46e4_8117_4b7471893e06" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_train_station_bike_storage" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_train_station_bike_storage_2c1dae13_929e_4fb3_8166_09889f9c3ad1" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_train_station_platform" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_train_station_platform_aa3a00f6_d942_42e1_a07f_0440da57151d" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_train_track_centreline" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_train_track_centreline_e7122fff_1fc1_4e8e_8904_9d652e7e1cbe" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_tram_track_centreline" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_tram_track_centreline_9c094aa6_4010_47a4_bd9f_3b9e1b1933b5" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="ptv_metro_bus_route" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="ptv_metro_bus_route_7080c150_4b61_43b5_88e6_22d4f1dc477a" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Line" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.54377199999998993</xmin>
+        <ymin>-38.47539699999998675</ymin>
+        <xmax>145.91136600000004364</xmax>
+        <ymax>-37.18991399999998748</ymax>
+      </extent>
+      <id>ptv_metro_bus_route_7080c150_4b61_43b5_88e6_22d4f1dc477a</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_metro_bus_route.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_metro_bus_route</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="line" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="255,158,23,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="SHAPE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTESHTNM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTELONGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TRIPHDSIGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_KM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSTNAM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSPNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSPID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSTID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUMOFSTOPS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OPERATOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SHAPE_ID" name="" index="0"/>
+        <alias field="ROUTE_ID" name="" index="1"/>
+        <alias field="ROUTESHTNM" name="" index="2"/>
+        <alias field="ROUTELONGN" name="" index="3"/>
+        <alias field="TRIPHDSIGN" name="" index="4"/>
+        <alias field="ROUTE_KM" name="" index="5"/>
+        <alias field="FIRSTSTNAM" name="" index="6"/>
+        <alias field="LASTSPNAME" name="" index="7"/>
+        <alias field="FIRSTSPID" name="" index="8"/>
+        <alias field="LASTSTID" name="" index="9"/>
+        <alias field="NUMOFSTOPS" name="" index="10"/>
+        <alias field="OPERATOR" name="" index="11"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="SHAPE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTESHTNM" expression=""/>
+        <default applyOnUpdate="0" field="ROUTELONGN" expression=""/>
+        <default applyOnUpdate="0" field="TRIPHDSIGN" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_KM" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSTNAM" expression=""/>
+        <default applyOnUpdate="0" field="LASTSPNAME" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSPID" expression=""/>
+        <default applyOnUpdate="0" field="LASTSTID" expression=""/>
+        <default applyOnUpdate="0" field="NUMOFSTOPS" expression=""/>
+        <default applyOnUpdate="0" field="OPERATOR" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="SHAPE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTESHTNM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTELONGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TRIPHDSIGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_KM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSTNAM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSPNAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSPID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSTID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="NUMOFSTOPS" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="OPERATOR" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SHAPE_ID" exp="" desc=""/>
+        <constraint field="ROUTE_ID" exp="" desc=""/>
+        <constraint field="ROUTESHTNM" exp="" desc=""/>
+        <constraint field="ROUTELONGN" exp="" desc=""/>
+        <constraint field="TRIPHDSIGN" exp="" desc=""/>
+        <constraint field="ROUTE_KM" exp="" desc=""/>
+        <constraint field="FIRSTSTNAM" exp="" desc=""/>
+        <constraint field="LASTSPNAME" exp="" desc=""/>
+        <constraint field="FIRSTSPID" exp="" desc=""/>
+        <constraint field="LASTSTID" exp="" desc=""/>
+        <constraint field="NUMOFSTOPS" exp="" desc=""/>
+        <constraint field="OPERATOR" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Point" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.54390000000000782</xmin>
+        <ymin>-38.47401599999994914</ymin>
+        <xmax>145.9096870000000763</xmax>
+        <ymax>-37.19096199999995633</ymax>
+      </extent>
+      <id>ptv_metro_bus_stop_7319201c_1fa1_49e0_bdec_d1c01f6560e4</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_metro_bus_stop.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_metro_bus_stop</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="232,113,141,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STOP_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STOP_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LATITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TICKETZONE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTEUSSP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STOP_ID" name="" index="0"/>
+        <alias field="STOP_NAME" name="" index="1"/>
+        <alias field="LATITUDE" name="" index="2"/>
+        <alias field="LONGITUDE" name="" index="3"/>
+        <alias field="TICKETZONE" name="" index="4"/>
+        <alias field="ROUTEUSSP" name="" index="5"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STOP_ID" expression=""/>
+        <default applyOnUpdate="0" field="STOP_NAME" expression=""/>
+        <default applyOnUpdate="0" field="LATITUDE" expression=""/>
+        <default applyOnUpdate="0" field="LONGITUDE" expression=""/>
+        <default applyOnUpdate="0" field="TICKETZONE" expression=""/>
+        <default applyOnUpdate="0" field="ROUTEUSSP" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STOP_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="STOP_NAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LATITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LONGITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TICKETZONE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTEUSSP" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STOP_ID" exp="" desc=""/>
+        <constraint field="STOP_NAME" exp="" desc=""/>
+        <constraint field="LATITUDE" exp="" desc=""/>
+        <constraint field="LONGITUDE" exp="" desc=""/>
+        <constraint field="TICKETZONE" exp="" desc=""/>
+        <constraint field="ROUTEUSSP" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Point" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.66111799999998766</xmin>
+        <ymin>-38.3742349989999525</ymin>
+        <xmax>145.48637900000005629</xmax>
+        <ymax>-37.57909099899995908</ymax>
+      </extent>
+      <id>ptv_metro_train_station_2f665ec1_bd83_4992_b971_433cbb3632cd</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_metro_train_station.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_metro_train_station</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="255,158,23,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STOP_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STOP_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LATITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TICKETZONE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTEUSSP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STOP_ID" name="" index="0"/>
+        <alias field="STOP_NAME" name="" index="1"/>
+        <alias field="LATITUDE" name="" index="2"/>
+        <alias field="LONGITUDE" name="" index="3"/>
+        <alias field="TICKETZONE" name="" index="4"/>
+        <alias field="ROUTEUSSP" name="" index="5"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STOP_ID" expression=""/>
+        <default applyOnUpdate="0" field="STOP_NAME" expression=""/>
+        <default applyOnUpdate="0" field="LATITUDE" expression=""/>
+        <default applyOnUpdate="0" field="LONGITUDE" expression=""/>
+        <default applyOnUpdate="0" field="TICKETZONE" expression=""/>
+        <default applyOnUpdate="0" field="ROUTEUSSP" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STOP_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="STOP_NAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LATITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LONGITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TICKETZONE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTEUSSP" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STOP_ID" exp="" desc=""/>
+        <constraint field="STOP_NAME" exp="" desc=""/>
+        <constraint field="LATITUDE" exp="" desc=""/>
+        <constraint field="LONGITUDE" exp="" desc=""/>
+        <constraint field="TICKETZONE" exp="" desc=""/>
+        <constraint field="ROUTEUSSP" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Line" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.87784199999998691</xmin>
+        <ymin>-37.91428499999994983</ymin>
+        <xmax>145.18211200000007466</xmax>
+        <ymax>-37.6791189999999574</ymax>
+      </extent>
+      <id>ptv_metro_tram_route_ef64958a_4e9c_4e5e_8637_1c178b67043f</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_metro_tram_route.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_metro_tram_route</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="line" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="183,72,75,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="SHAPE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTESHTNM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTELONGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TRIPHDSIGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_KM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSTNAM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSPNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSPID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSTID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUMOFSTOPS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OPERATOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SHAPE_ID" name="" index="0"/>
+        <alias field="ROUTE_ID" name="" index="1"/>
+        <alias field="ROUTESHTNM" name="" index="2"/>
+        <alias field="ROUTELONGN" name="" index="3"/>
+        <alias field="TRIPHDSIGN" name="" index="4"/>
+        <alias field="ROUTE_KM" name="" index="5"/>
+        <alias field="FIRSTSTNAM" name="" index="6"/>
+        <alias field="LASTSPNAME" name="" index="7"/>
+        <alias field="FIRSTSPID" name="" index="8"/>
+        <alias field="LASTSTID" name="" index="9"/>
+        <alias field="NUMOFSTOPS" name="" index="10"/>
+        <alias field="OPERATOR" name="" index="11"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="SHAPE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTESHTNM" expression=""/>
+        <default applyOnUpdate="0" field="ROUTELONGN" expression=""/>
+        <default applyOnUpdate="0" field="TRIPHDSIGN" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_KM" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSTNAM" expression=""/>
+        <default applyOnUpdate="0" field="LASTSPNAME" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSPID" expression=""/>
+        <default applyOnUpdate="0" field="LASTSTID" expression=""/>
+        <default applyOnUpdate="0" field="NUMOFSTOPS" expression=""/>
+        <default applyOnUpdate="0" field="OPERATOR" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="SHAPE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTESHTNM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTELONGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TRIPHDSIGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_KM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSTNAM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSPNAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSPID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSTID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="NUMOFSTOPS" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="OPERATOR" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SHAPE_ID" exp="" desc=""/>
+        <constraint field="ROUTE_ID" exp="" desc=""/>
+        <constraint field="ROUTESHTNM" exp="" desc=""/>
+        <constraint field="ROUTELONGN" exp="" desc=""/>
+        <constraint field="TRIPHDSIGN" exp="" desc=""/>
+        <constraint field="ROUTE_KM" exp="" desc=""/>
+        <constraint field="FIRSTSTNAM" exp="" desc=""/>
+        <constraint field="LASTSPNAME" exp="" desc=""/>
+        <constraint field="FIRSTSPID" exp="" desc=""/>
+        <constraint field="LASTSTID" exp="" desc=""/>
+        <constraint field="NUMOFSTOPS" exp="" desc=""/>
+        <constraint field="OPERATOR" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Point" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.87782900000001973</xmin>
+        <ymin>-37.91426599899995153</ymin>
+        <xmax>145.18208900000001904</xmax>
+        <ymax>-37.67910999899999069</ymax>
+      </extent>
+      <id>ptv_metro_tram_stop_b1571900_25b8_4d3f_a433_5f69e2ef9fdc</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_metro_tram_stop.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_metro_tram_stop</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="231,113,72,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STOP_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STOP_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LATITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TICKETZONE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTEUSSP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STOP_ID" name="" index="0"/>
+        <alias field="STOP_NAME" name="" index="1"/>
+        <alias field="LATITUDE" name="" index="2"/>
+        <alias field="LONGITUDE" name="" index="3"/>
+        <alias field="TICKETZONE" name="" index="4"/>
+        <alias field="ROUTEUSSP" name="" index="5"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STOP_ID" expression=""/>
+        <default applyOnUpdate="0" field="STOP_NAME" expression=""/>
+        <default applyOnUpdate="0" field="LATITUDE" expression=""/>
+        <default applyOnUpdate="0" field="LONGITUDE" expression=""/>
+        <default applyOnUpdate="0" field="TICKETZONE" expression=""/>
+        <default applyOnUpdate="0" field="ROUTEUSSP" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STOP_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="STOP_NAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LATITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LONGITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TICKETZONE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTEUSSP" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STOP_ID" exp="" desc=""/>
+        <constraint field="STOP_NAME" exp="" desc=""/>
+        <constraint field="LATITUDE" exp="" desc=""/>
+        <constraint field="LONGITUDE" exp="" desc=""/>
+        <constraint field="TICKETZONE" exp="" desc=""/>
+        <constraint field="ROUTEUSSP" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Line" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.56438600000001315</xmin>
+        <ymin>-38.35525799999999208</ymin>
+        <xmax>145.54585600000007162</xmax>
+        <ymax>-37.57532499999996389</ymax>
+      </extent>
+      <id>ptv_night_bus_route_fbae157f_57ec_466b_9240_07257948457a</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_night_bus_route.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_night_bus_route</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="line" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="152,125,183,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="SHAPE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTESHTNM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTELONGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TRIPHDSIGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_KM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSTNAM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSPNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSPID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSTID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUMOFSTOPS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OPERATOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SHAPE_ID" name="" index="0"/>
+        <alias field="ROUTE_ID" name="" index="1"/>
+        <alias field="ROUTESHTNM" name="" index="2"/>
+        <alias field="ROUTELONGN" name="" index="3"/>
+        <alias field="TRIPHDSIGN" name="" index="4"/>
+        <alias field="ROUTE_KM" name="" index="5"/>
+        <alias field="FIRSTSTNAM" name="" index="6"/>
+        <alias field="LASTSPNAME" name="" index="7"/>
+        <alias field="FIRSTSPID" name="" index="8"/>
+        <alias field="LASTSTID" name="" index="9"/>
+        <alias field="NUMOFSTOPS" name="" index="10"/>
+        <alias field="OPERATOR" name="" index="11"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="SHAPE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTESHTNM" expression=""/>
+        <default applyOnUpdate="0" field="ROUTELONGN" expression=""/>
+        <default applyOnUpdate="0" field="TRIPHDSIGN" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_KM" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSTNAM" expression=""/>
+        <default applyOnUpdate="0" field="LASTSPNAME" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSPID" expression=""/>
+        <default applyOnUpdate="0" field="LASTSTID" expression=""/>
+        <default applyOnUpdate="0" field="NUMOFSTOPS" expression=""/>
+        <default applyOnUpdate="0" field="OPERATOR" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="SHAPE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTESHTNM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTELONGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TRIPHDSIGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_KM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSTNAM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSPNAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSPID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSTID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="NUMOFSTOPS" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="OPERATOR" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SHAPE_ID" exp="" desc=""/>
+        <constraint field="ROUTE_ID" exp="" desc=""/>
+        <constraint field="ROUTESHTNM" exp="" desc=""/>
+        <constraint field="ROUTELONGN" exp="" desc=""/>
+        <constraint field="TRIPHDSIGN" exp="" desc=""/>
+        <constraint field="ROUTE_KM" exp="" desc=""/>
+        <constraint field="FIRSTSTNAM" exp="" desc=""/>
+        <constraint field="LASTSPNAME" exp="" desc=""/>
+        <constraint field="FIRSTSPID" exp="" desc=""/>
+        <constraint field="LASTSTID" exp="" desc=""/>
+        <constraint field="NUMOFSTOPS" exp="" desc=""/>
+        <constraint field="OPERATOR" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Point" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.56864100000007056</xmin>
+        <ymin>-38.35514499900000374</ymin>
+        <xmax>145.52969300000006569</xmax>
+        <ymax>-37.57752499899999066</ymax>
+      </extent>
+      <id>ptv_night_bus_stop_4d7ec624_3121_4f28_a191_aaade2d28177</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_night_bus_stop.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_night_bus_stop</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="190,207,80,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STOP_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STOP_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LATITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TICKETZONE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTEUSSP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STOP_ID" name="" index="0"/>
+        <alias field="STOP_NAME" name="" index="1"/>
+        <alias field="LATITUDE" name="" index="2"/>
+        <alias field="LONGITUDE" name="" index="3"/>
+        <alias field="TICKETZONE" name="" index="4"/>
+        <alias field="ROUTEUSSP" name="" index="5"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STOP_ID" expression=""/>
+        <default applyOnUpdate="0" field="STOP_NAME" expression=""/>
+        <default applyOnUpdate="0" field="LATITUDE" expression=""/>
+        <default applyOnUpdate="0" field="LONGITUDE" expression=""/>
+        <default applyOnUpdate="0" field="TICKETZONE" expression=""/>
+        <default applyOnUpdate="0" field="ROUTEUSSP" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STOP_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="STOP_NAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LATITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LONGITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TICKETZONE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTEUSSP" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STOP_ID" exp="" desc=""/>
+        <constraint field="STOP_NAME" exp="" desc=""/>
+        <constraint field="LATITUDE" exp="" desc=""/>
+        <constraint field="LONGITUDE" exp="" desc=""/>
+        <constraint field="TICKETZONE" exp="" desc=""/>
+        <constraint field="ROUTEUSSP" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Line" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>140.74216899999998986</xmin>
+        <ymin>-38.77714899999995168</ymin>
+        <xmax>149.75771800000006806</xmax>
+        <ymax>-34.16457299999996167</ymax>
+      </extent>
+      <id>ptv_regional_bus_route_f0984060_ac8d_400f_a0c0_7df1bdd1099e</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_regional_bus_route.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_regional_bus_route</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="line" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="225,89,137,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="SHAPE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTESHTNM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTELONGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TRIPHDSIGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_KM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSTNAM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSPNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSPID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSTID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUMOFSTOPS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OPERATOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SHAPE_ID" name="" index="0"/>
+        <alias field="ROUTE_ID" name="" index="1"/>
+        <alias field="ROUTESHTNM" name="" index="2"/>
+        <alias field="ROUTELONGN" name="" index="3"/>
+        <alias field="TRIPHDSIGN" name="" index="4"/>
+        <alias field="ROUTE_KM" name="" index="5"/>
+        <alias field="FIRSTSTNAM" name="" index="6"/>
+        <alias field="LASTSPNAME" name="" index="7"/>
+        <alias field="FIRSTSPID" name="" index="8"/>
+        <alias field="LASTSTID" name="" index="9"/>
+        <alias field="NUMOFSTOPS" name="" index="10"/>
+        <alias field="OPERATOR" name="" index="11"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="SHAPE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTESHTNM" expression=""/>
+        <default applyOnUpdate="0" field="ROUTELONGN" expression=""/>
+        <default applyOnUpdate="0" field="TRIPHDSIGN" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_KM" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSTNAM" expression=""/>
+        <default applyOnUpdate="0" field="LASTSPNAME" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSPID" expression=""/>
+        <default applyOnUpdate="0" field="LASTSTID" expression=""/>
+        <default applyOnUpdate="0" field="NUMOFSTOPS" expression=""/>
+        <default applyOnUpdate="0" field="OPERATOR" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="SHAPE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTESHTNM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTELONGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TRIPHDSIGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_KM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSTNAM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSPNAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSPID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSTID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="NUMOFSTOPS" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="OPERATOR" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SHAPE_ID" exp="" desc=""/>
+        <constraint field="ROUTE_ID" exp="" desc=""/>
+        <constraint field="ROUTESHTNM" exp="" desc=""/>
+        <constraint field="ROUTELONGN" exp="" desc=""/>
+        <constraint field="TRIPHDSIGN" exp="" desc=""/>
+        <constraint field="ROUTE_KM" exp="" desc=""/>
+        <constraint field="FIRSTSTNAM" exp="" desc=""/>
+        <constraint field="LASTSPNAME" exp="" desc=""/>
+        <constraint field="FIRSTSPID" exp="" desc=""/>
+        <constraint field="LASTSTID" exp="" desc=""/>
+        <constraint field="NUMOFSTOPS" exp="" desc=""/>
+        <constraint field="OPERATOR" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Point" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>140.74216899999998986</xmin>
+        <ymin>-38.77712299999996048</ymin>
+        <xmax>149.75770699999998214</xmax>
+        <ymax>-34.16522899999995388</ymax>
+      </extent>
+      <id>ptv_regional_bus_stop_903215eb_55b7_45f3_b6fb_b6b7d70a4656</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_regional_bus_stop.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_regional_bus_stop</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="229,182,54,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STOP_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STOP_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LATITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTEUSSP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STOP_ID" name="" index="0"/>
+        <alias field="STOP_NAME" name="" index="1"/>
+        <alias field="LATITUDE" name="" index="2"/>
+        <alias field="LONGITUDE" name="" index="3"/>
+        <alias field="ROUTEUSSP" name="" index="4"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STOP_ID" expression=""/>
+        <default applyOnUpdate="0" field="STOP_NAME" expression=""/>
+        <default applyOnUpdate="0" field="LATITUDE" expression=""/>
+        <default applyOnUpdate="0" field="LONGITUDE" expression=""/>
+        <default applyOnUpdate="0" field="ROUTEUSSP" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STOP_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="STOP_NAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LATITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LONGITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTEUSSP" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STOP_ID" exp="" desc=""/>
+        <constraint field="STOP_NAME" exp="" desc=""/>
+        <constraint field="LATITUDE" exp="" desc=""/>
+        <constraint field="LONGITUDE" exp="" desc=""/>
+        <constraint field="ROUTEUSSP" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Line" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>140.5066269999999804</xmin>
+        <ymin>-38.78463999999996759</ymin>
+        <xmax>149.91401500000006308</xmax>
+        <ymax>-34.17077000000000453</ymax>
+      </extent>
+      <id>ptv_regional_coach_route_6d534933_40c3_4167_bfe4_c299561bf072</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_regional_coach_route.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_regional_coach_route</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="line" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="196,60,57,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="SHAPE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTESHTNM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTELONGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TRIPHDSIGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_KM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSTNAM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSPNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSPID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSTID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUMOFSTOPS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OPERATOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SHAPE_ID" name="" index="0"/>
+        <alias field="ROUTE_ID" name="" index="1"/>
+        <alias field="ROUTESHTNM" name="" index="2"/>
+        <alias field="ROUTELONGN" name="" index="3"/>
+        <alias field="TRIPHDSIGN" name="" index="4"/>
+        <alias field="ROUTE_KM" name="" index="5"/>
+        <alias field="FIRSTSTNAM" name="" index="6"/>
+        <alias field="LASTSPNAME" name="" index="7"/>
+        <alias field="FIRSTSPID" name="" index="8"/>
+        <alias field="LASTSTID" name="" index="9"/>
+        <alias field="NUMOFSTOPS" name="" index="10"/>
+        <alias field="OPERATOR" name="" index="11"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="SHAPE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTESHTNM" expression=""/>
+        <default applyOnUpdate="0" field="ROUTELONGN" expression=""/>
+        <default applyOnUpdate="0" field="TRIPHDSIGN" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_KM" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSTNAM" expression=""/>
+        <default applyOnUpdate="0" field="LASTSPNAME" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSPID" expression=""/>
+        <default applyOnUpdate="0" field="LASTSTID" expression=""/>
+        <default applyOnUpdate="0" field="NUMOFSTOPS" expression=""/>
+        <default applyOnUpdate="0" field="OPERATOR" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="SHAPE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTESHTNM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTELONGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TRIPHDSIGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_KM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSTNAM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSPNAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSPID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSTID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="NUMOFSTOPS" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="OPERATOR" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SHAPE_ID" exp="" desc=""/>
+        <constraint field="ROUTE_ID" exp="" desc=""/>
+        <constraint field="ROUTESHTNM" exp="" desc=""/>
+        <constraint field="ROUTELONGN" exp="" desc=""/>
+        <constraint field="TRIPHDSIGN" exp="" desc=""/>
+        <constraint field="ROUTE_KM" exp="" desc=""/>
+        <constraint field="FIRSTSTNAM" exp="" desc=""/>
+        <constraint field="LASTSPNAME" exp="" desc=""/>
+        <constraint field="FIRSTSPID" exp="" desc=""/>
+        <constraint field="LASTSTID" exp="" desc=""/>
+        <constraint field="NUMOFSTOPS" exp="" desc=""/>
+        <constraint field="OPERATOR" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Point" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>138.59502100000008795</xmin>
+        <ymin>-38.77712299899997106</ymin>
+        <xmax>150.17831200000000536</xmax>
+        <ymax>-34.18210599799999727</ymax>
+      </extent>
+      <id>ptv_regional_coach_stop_eddd02f8_62db_414a_9d81_c2e1a3e89ff7</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_regional_coach_stop.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_regional_coach_stop</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="190,178,151,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STOP_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STOP_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LATITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STOP_ID" name="" index="0"/>
+        <alias field="STOP_NAME" name="" index="1"/>
+        <alias field="LATITUDE" name="" index="2"/>
+        <alias field="LONGITUDE" name="" index="3"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STOP_ID" expression=""/>
+        <default applyOnUpdate="0" field="STOP_NAME" expression=""/>
+        <default applyOnUpdate="0" field="LATITUDE" expression=""/>
+        <default applyOnUpdate="0" field="LONGITUDE" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STOP_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="STOP_NAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LATITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LONGITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STOP_ID" exp="" desc=""/>
+        <constraint field="STOP_NAME" exp="" desc=""/>
+        <constraint field="LATITUDE" exp="" desc=""/>
+        <constraint field="LONGITUDE" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Point" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>141.65389000000004671</xmin>
+        <ymin>-38.38639399899994942</ymin>
+        <xmax>147.62761399999999412</xmax>
+        <ymax>-35.34111399799996889</ymax>
+      </extent>
+      <id>ptv_regional_train_station_3c5e6e7b_9072_41a5_be50_c2430d257f33</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_regional_train_station.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_regional_train_station</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="145,82,45,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STOP_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STOP_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LATITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STOP_ID" name="" index="0"/>
+        <alias field="STOP_NAME" name="" index="1"/>
+        <alias field="LATITUDE" name="" index="2"/>
+        <alias field="LONGITUDE" name="" index="3"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STOP_ID" expression=""/>
+        <default applyOnUpdate="0" field="STOP_NAME" expression=""/>
+        <default applyOnUpdate="0" field="LATITUDE" expression=""/>
+        <default applyOnUpdate="0" field="LONGITUDE" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STOP_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="STOP_NAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LATITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LONGITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STOP_ID" exp="" desc=""/>
+        <constraint field="STOP_NAME" exp="" desc=""/>
+        <constraint field="LATITUDE" exp="" desc=""/>
+        <constraint field="LONGITUDE" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Line" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.84882400000003599</xmin>
+        <ymin>-37.81645799999995461</ymin>
+        <xmax>144.95294000000001233</xmax>
+        <ymax>-37.66937299999995048</ymax>
+      </extent>
+      <id>ptv_skybus_route_4c3b4bbb_5d30_4189_bf06_435b9a1bbffd</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_skybus_route.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_skybus_route</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="line" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="125,139,143,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="SHAPE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTESHTNM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTELONGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TRIPHDSIGN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTE_KM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSTNAM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSPNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIRSTSPID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTSTID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUMOFSTOPS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OPERATOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SHAPE_ID" name="" index="0"/>
+        <alias field="ROUTE_ID" name="" index="1"/>
+        <alias field="ROUTESHTNM" name="" index="2"/>
+        <alias field="ROUTELONGN" name="" index="3"/>
+        <alias field="TRIPHDSIGN" name="" index="4"/>
+        <alias field="ROUTE_KM" name="" index="5"/>
+        <alias field="FIRSTSTNAM" name="" index="6"/>
+        <alias field="LASTSPNAME" name="" index="7"/>
+        <alias field="FIRSTSPID" name="" index="8"/>
+        <alias field="LASTSTID" name="" index="9"/>
+        <alias field="NUMOFSTOPS" name="" index="10"/>
+        <alias field="OPERATOR" name="" index="11"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="SHAPE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_ID" expression=""/>
+        <default applyOnUpdate="0" field="ROUTESHTNM" expression=""/>
+        <default applyOnUpdate="0" field="ROUTELONGN" expression=""/>
+        <default applyOnUpdate="0" field="TRIPHDSIGN" expression=""/>
+        <default applyOnUpdate="0" field="ROUTE_KM" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSTNAM" expression=""/>
+        <default applyOnUpdate="0" field="LASTSPNAME" expression=""/>
+        <default applyOnUpdate="0" field="FIRSTSPID" expression=""/>
+        <default applyOnUpdate="0" field="LASTSTID" expression=""/>
+        <default applyOnUpdate="0" field="NUMOFSTOPS" expression=""/>
+        <default applyOnUpdate="0" field="OPERATOR" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="SHAPE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTESHTNM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTELONGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TRIPHDSIGN" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTE_KM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSTNAM" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSPNAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="FIRSTSPID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LASTSTID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="NUMOFSTOPS" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="OPERATOR" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SHAPE_ID" exp="" desc=""/>
+        <constraint field="ROUTE_ID" exp="" desc=""/>
+        <constraint field="ROUTESHTNM" exp="" desc=""/>
+        <constraint field="ROUTELONGN" exp="" desc=""/>
+        <constraint field="TRIPHDSIGN" exp="" desc=""/>
+        <constraint field="ROUTE_KM" exp="" desc=""/>
+        <constraint field="FIRSTSTNAM" exp="" desc=""/>
+        <constraint field="LASTSPNAME" exp="" desc=""/>
+        <constraint field="FIRSTSPID" exp="" desc=""/>
+        <constraint field="LASTSTID" exp="" desc=""/>
+        <constraint field="NUMOFSTOPS" exp="" desc=""/>
+        <constraint field="OPERATOR" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Point" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.84882300000003852</xmin>
+        <ymin>-37.81648299899995891</ymin>
+        <xmax>144.95281499999998687</xmax>
+        <ymax>-37.66937499899995601</ymax>
+      </extent>
+      <id>ptv_skybus_stop_9ceeb2cb_b9ad_44a3_8b9b_ed0400d3c3f8</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_skybus_stop.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_skybus_stop</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="133,182,111,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STOP_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STOP_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LATITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTEUSSP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STOP_ID" name="" index="0"/>
+        <alias field="STOP_NAME" name="" index="1"/>
+        <alias field="LATITUDE" name="" index="2"/>
+        <alias field="LONGITUDE" name="" index="3"/>
+        <alias field="ROUTEUSSP" name="" index="4"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STOP_ID" expression=""/>
+        <default applyOnUpdate="0" field="STOP_NAME" expression=""/>
+        <default applyOnUpdate="0" field="LATITUDE" expression=""/>
+        <default applyOnUpdate="0" field="LONGITUDE" expression=""/>
+        <default applyOnUpdate="0" field="ROUTEUSSP" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STOP_ID" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="STOP_NAME" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LATITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="LONGITUDE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ROUTEUSSP" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STOP_ID" exp="" desc=""/>
+        <constraint field="STOP_NAME" exp="" desc=""/>
+        <constraint field="LATITUDE" exp="" desc=""/>
+        <constraint field="LONGITUDE" exp="" desc=""/>
+        <constraint field="ROUTEUSSP" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Polygon" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.65882700000008754</xmin>
+        <ymin>-38.3741179999999531</ymin>
+        <xmax>145.48803400000008423</xmax>
+        <ymax>-37.57841799999999921</ymax>
+      </extent>
+      <id>ptv_train_carpark_db19c7a1_6856_4331_aca3_9557f798d234</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_train_carpark.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_train_carpark</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="fill" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="164,113,88,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STATION">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COM_CAPAC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STATION" name="" index="0"/>
+        <alias field="COM_CAPAC" name="" index="1"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STATION" expression=""/>
+        <default applyOnUpdate="0" field="COM_CAPAC" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STATION" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="COM_CAPAC" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STATION" exp="" desc=""/>
+        <constraint field="COM_CAPAC" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Line" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>140.96509500000001935</xmin>
+        <ymin>-38.39165099999996755</ymin>
+        <xmax>147.62997100000006867</xmax>
+        <ymax>-34.12472699999995029</ymax>
+      </extent>
+      <id>ptv_train_corridor_centreline_b6c6b3c8_99a8_46e4_8117_4b7471893e06</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_train_corridor_centreline.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_train_corridor_centreline</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="line" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="213,180,60,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="SEGMENT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="SEGMENT" name="" index="0"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="SEGMENT" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="SEGMENT" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="SEGMENT" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Point" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.66045500000006996</xmin>
+        <ymin>-38.14403099999998403</ymin>
+        <xmax>145.4853450000000521</xmax>
+        <ymax>-37.57953499999996438</ymax>
+      </extent>
+      <id>ptv_train_station_bike_storage_2c1dae13_929e_4fb3_8166_09889f9c3ad1</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_train_station_bike_storage.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_train_station_bike_storage</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="114,155,111,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STATION">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAPACITY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STATION" name="" index="0"/>
+        <alias field="TYPE" name="" index="1"/>
+        <alias field="CAPACITY" name="" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STATION" expression=""/>
+        <default applyOnUpdate="0" field="TYPE" expression=""/>
+        <default applyOnUpdate="0" field="CAPACITY" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STATION" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="TYPE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="CAPACITY" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STATION" exp="" desc=""/>
+        <constraint field="TYPE" exp="" desc=""/>
+        <constraint field="CAPACITY" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Polygon" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>140.98760300000003554</xmin>
+        <ymin>-38.38644799999997304</ymin>
+        <xmax>147.62963799999999992</xmax>
+        <ymax>-34.17991899999998395</ymax>
+      </extent>
+      <id>ptv_train_station_platform_aa3a00f6_d942_42e1_a07f_0440da57151d</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_train_station_platform.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_train_station_platform</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="fill" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="243,166,178,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="STATION">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PLATFORMNO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="STATION" name="" index="0"/>
+        <alias field="PLATFORMNO" name="" index="1"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="STATION" expression=""/>
+        <default applyOnUpdate="0" field="PLATFORMNO" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="STATION" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="PLATFORMNO" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="STATION" exp="" desc=""/>
+        <constraint field="PLATFORMNO" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Line" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>140.96519599999999173</xmin>
+        <ymin>-38.48106500000000096</ymin>
+        <xmax>147.62986100000000533</xmax>
+        <ymax>-34.12479399999995167</ymax>
+      </extent>
+      <id>ptv_train_track_centreline_e7122fff_1fc1_4e8e_8904_9d652e7e1cbe</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_train_track_centreline.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_train_track_centreline</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="line" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="141,90,153,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FACILITY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GAUGE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ELECTRIC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="FACILITY" name="" index="0"/>
+        <alias field="GAUGE" name="" index="1"/>
+        <alias field="ELECTRIC" name="" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="FACILITY" expression=""/>
+        <default applyOnUpdate="0" field="GAUGE" expression=""/>
+        <default applyOnUpdate="0" field="ELECTRIC" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="FACILITY" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="GAUGE" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+        <constraint field="ELECTRIC" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="FACILITY" exp="" desc=""/>
+        <constraint field="GAUGE" exp="" desc=""/>
+        <constraint field="ELECTRIC" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" readOnly="0" minScale="1e+8" simplifyMaxScale="1" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" geometry="Line" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" simplifyAlgorithm="0">
+      <extent>
+        <xmin>144.87791795999999067</xmin>
+        <ymin>-37.91436102000000119</ymin>
+        <xmax>145.18237104000002091</xmax>
+        <ymax>-37.67908202999996092</ymax>
+      </extent>
+      <id>ptv_tram_track_centreline_9c094aa6_4010_47a4_bd9f_3b9e1b1933b5</id>
+      <datasource>../MelbDatathon2018/spatial-data/ptv/ptv_tram_track_centreline.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ptv_tram_track_centreline</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3415</srsid>
+          <srid>4283</srid>
+          <authid>EPSG:4283</authid>
+          <description>GDA94</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" type="singleSymbol" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="line" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="232,113,141,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <fieldConfiguration>
+        <field name="FACILITY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="FACILITY" name="" index="0"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="FACILITY" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint field="FACILITY" exp_strength="0" notnull_strength="0" constraints="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="FACILITY" exp="" desc=""/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="ptv_metro_bus_route_7080c150_4b61_43b5_88e6_22d4f1dc477a"/>
+    <layer id="ptv_tram_track_centreline_9c094aa6_4010_47a4_bd9f_3b9e1b1933b5"/>
+    <layer id="ptv_train_track_centreline_e7122fff_1fc1_4e8e_8904_9d652e7e1cbe"/>
+    <layer id="ptv_train_station_platform_aa3a00f6_d942_42e1_a07f_0440da57151d"/>
+    <layer id="ptv_train_station_bike_storage_2c1dae13_929e_4fb3_8166_09889f9c3ad1"/>
+    <layer id="ptv_train_corridor_centreline_b6c6b3c8_99a8_46e4_8117_4b7471893e06"/>
+    <layer id="ptv_train_carpark_db19c7a1_6856_4331_aca3_9557f798d234"/>
+    <layer id="ptv_skybus_stop_9ceeb2cb_b9ad_44a3_8b9b_ed0400d3c3f8"/>
+    <layer id="ptv_skybus_route_4c3b4bbb_5d30_4189_bf06_435b9a1bbffd"/>
+    <layer id="ptv_regional_train_station_3c5e6e7b_9072_41a5_be50_c2430d257f33"/>
+    <layer id="ptv_regional_coach_stop_eddd02f8_62db_414a_9d81_c2e1a3e89ff7"/>
+    <layer id="ptv_regional_coach_route_6d534933_40c3_4167_bfe4_c299561bf072"/>
+    <layer id="ptv_regional_bus_stop_903215eb_55b7_45f3_b6fb_b6b7d70a4656"/>
+    <layer id="ptv_regional_bus_route_f0984060_ac8d_400f_a0c0_7df1bdd1099e"/>
+    <layer id="ptv_night_bus_stop_4d7ec624_3121_4f28_a191_aaade2d28177"/>
+    <layer id="ptv_night_bus_route_fbae157f_57ec_466b_9240_07257948457a"/>
+    <layer id="ptv_metro_tram_stop_b1571900_25b8_4d3f_a433_5f69e2ef9fdc"/>
+    <layer id="ptv_metro_tram_route_ef64958a_4e9c_4e5e_8637_1c178b67043f"/>
+    <layer id="ptv_metro_train_station_2f665ec1_bd83_4992_b971_433cbb3632cd"/>
+    <layer id="ptv_metro_bus_stop_7319201c_1fa1_49e0_bdec_d1c01f6560e4"/>
+  </layerorder>
+  <properties>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WCSUrl type="QString"></WCSUrl>
+    <DefaultStyles>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <Fill type="QString"></Fill>
+      <ColorRamp type="QString"></ColorRamp>
+      <Line type="QString"></Line>
+      <Opacity type="double">1</Opacity>
+    </DefaultStyles>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <SearchMethod type="int">0</SearchMethod>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+    </PAL>
+    <WCSLayers type="QStringList"/>
+    <WMSUrl type="QString"></WMSUrl>
+    <RequiredLayers>
+      <Layers type="QStringList"/>
+    </RequiredLayers>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+    </Gui>
+    <WFSLayers type="QStringList"/>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WFSUrl type="QString"></WFSUrl>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title>data overview</title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Michael Milewski</author>
+    <creation>2018-07-28T12:28:41</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>

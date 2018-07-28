@@ -62,3 +62,5 @@ MelbDatathon2018
 
 # ignore temp files
 *~
+
+.idea/

@@ -1,21 +1,16 @@
-# the-D-team-2018
+# Republic of Data
 
 Melbourne Datathon 2018
-
-## Format
-
-  - Upload as jupyter notebook format, can be either R or Python
-  - Include the library version that used in the notebook
 
 ## Planned for Sun 5/8/2018
 
   - Group
-    - terms of our sharing methods
-      - how we collaborate
-      - github project how will we use that
-      - catchup on Friday
-    - Google Big Query as a data source - Data lab and or local jupyter
-
+    - sort out how we can share insights better
+    - get people up to speed with [Dataprep](https://console.cloud.google.com/dataprep?project=republic-of-data-2018&folder&organizationId)
+    - online catchup on Friday 3rd August
+    - [Google Big Query](https://console.cloud.google.com/bigquery?project=republic-of-data-2018&folder&organizationId)
+      as a data source - use in Data lab and or local jupyter/RStudio
+    - basic pipeline from data -> app - a deployed demo app
   - What we are working on is in [Google Projects](https://github.com/saramic/republic-of-data/projects/1)
 
 ## Findings
@@ -34,6 +29,7 @@ Melbourne Datathon 2018
     * touch on as API - order me a coffee on arrival at office - what is the potential?
     * weather forcast - to drive pre-ordering parking - dictated by forecast
       not weather - could we get parking data?
+    * how many people loose money touching on in free tram zone
 
 - [Insights](insights/README.md)
 - [INSTALL](INSTALL.md)
@@ -43,30 +39,4 @@ Melbourne Datathon 2018
 ## Other
 
 - [blog](blog.md)
-
-# Plan
-
-### Sat 28th July
-
-* Michael M (@saramic) Goals
-  * pair with everyone - 30-60 minutes with the aim of a commit
-    - [x] John - get up and running with QGIS and the potential and options of
-      hosting PostGIS in the cloud for our use.
-    - [ ] Michael S - python notebook something?
-    - [ ] Ariel - python notebook something?
-    - [ ] Suzan - python notebook something?
-    - [ ] Dickson - python notebook something?
-    - [ ] Selena - data2app setup and deploy
-    - [x] Adam - data pipeline setup
-
-* Team goals?
-  - [ ] commits to insights
-  - [x] data in cloud
-  - [x] team registered
-  - [x] team AWS credits
-  - [ ] basic pipeline from data -> app
-
-* **Questions**
-  * When is the submission for Data2App?
-    **Same as insights - 3pm 18th September**
 

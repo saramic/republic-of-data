@@ -7,21 +7,16 @@ Melbourne Datathon 2018
   - Upload as jupyter notebook format, can be either R or Python
   - Include the library version that used in the notebook
 
-## In progress
+## Planned for Sun 5/8/2018
 
-  - Michael M (@saramic) & @selenasmall - getting a reactjs D3.js app running
-    for our data2app
-  - Adam (@ocisly) & @selenasmall - getting jupyter notebook up and running
-  - Dickson @dicksonk - starting to look at the scan on/off data
-  - Michael S
-    - exploring the possible question to ask (and find the answer from the data)
-    - what can segamaker servier (AWS) can do for us.
-    - where do we consolidate the myki card read data. AWS RDS(Aurora with
-      Postgres Flavour or Redshift)
-  - Suzan - I don't know
-  - @arielma & @selenasmall Thinking about questions we want to find answer
-    for.
-  - @arielma researching on car_speed data
+  - Group
+    - terms of our sharing methods
+      - how we collaborate
+      - github project how will we use that
+      - catchup on Friday
+    - Google Big Query as a data source - Data lab and or local jupyter
+
+  - What we are working on is in [Google Projects](https://github.com/saramic/republic-of-data/projects/1)
 
 ## Findings
 
@@ -48,21 +43,6 @@ Melbourne Datathon 2018
 # Plan
 
 ### Sat 28th July
-
-* Availability
-
-  | Hacker    | arrive | leave  | arrive | leave |
-  | --------- | ------ | ------ | ------ | ----- |
-  | Adam      |  9:30am|        |        | 6:00pm|
-  | Ariel     | 10:30am|        |        |  late |
-  | Dickson   |        |        |        |       |
-  | John      |  9:00am|        |        | 5:00pm|
-  | Michał    |        |        |        |       |
-  | Michael M | 10:30am| 2:30pm |    4pm |   8pm |
-  | Michael S | 10:30am| 5:00pm |        |       |
-  | Selena    |    9am |   -    |    -   |  12am |
-  | Suzan     |        |        |        |       |
-  | Tomasz    |        |        |        |       |
 
 * Michael M (@saramic) Goals
   * pair with everyone - 30-60 minutes with the aim of a commit

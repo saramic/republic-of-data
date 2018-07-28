@@ -1,5 +1,25 @@
 # Insights
 
+## Answers
+
+  - [What data do we have?](README.md#what-data-do-we-have)
+  - [What is calendar.txt?](what_is_calendar_txt.ipynb)
+  - [What is card_types.txt?](what_is_card_types_txt.ipynb)
+  - [Missing stop locations](missing_stop_locations.md)
+  - [Free tram zone](free_tram_zone.md)
+
+## New Questions
+
+  - [MM] How do we know what the difference between sample 0 and 1? If you look at
+    the overlap between values in the columns of samp_0 and samp_1 you should
+    find one column with very little overlap. From there it should be pretty
+    easy.
+  - [MM] what network connections can we find between different cardID's?
+  - [MM] what regularity can we find by cardID and route?
+  - [MM] what patterns can we find if we focus on a known area?
+    - say Hoddle St Collingwood, very heavy traffic, busses with altrnatives
+      for tram and train, can we see how complete the data is.
+
 ## Questions
 
 ### About the given data
@@ -55,15 +75,10 @@
   - disasters, protests, natural disasters, floods
   - impact of food delivery, deliveroo, coles delivery, uber eats, etc on transport
     - when where these services started?
-
-## Answers
-  - [What data do we have?](README.md#what-data-do-we-have)
-  - [What is calendar.txt?](what_is_calendar_txt.ipynb)
-  - [What is card_types.txt?](what_is_card_types_txt.ipynb)
-  - [Missing stop locations](missing_stop_locations.md)
-  - [Free tram zone](free_tram_zone.md)
-  - How do we know what the difference between sample 0 and 1? If you look at the overlap between values in the columns of samp_0 and samp_1 you should find one column with very little overlap. From there it should be pretty easy.
-
+  - in peak hour people may not touch on as they cannot get to the touch on machine
+  - suburb growth correlation to transport
+  - school population growth?
+  
 ### What data do we have?
 
   - Myki touch on

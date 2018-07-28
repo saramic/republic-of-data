@@ -66,3 +66,5 @@ MelbDatathon2018
 #ignore geopackage temp files
 *.gpkg-shm
 *.gpkg-wal
+
+.idea/

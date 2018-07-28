@@ -44,18 +44,8 @@
   - [What data do we have?](README.md#what-data-do-we-have)
   - [What is calendar.txt?](what_is_calendar_txt.ipynb)
   - [What is card_types.txt?](what_is_card_types_txt.ipynb)
-  - What are the missing stops from stop locations?
-  ```
-Base on tram stops people transfer to afterwards, I infer the big missing stops locations are:
-64404 Flinders St
-64408 Southern Cross
-64402 Melbourne Central
-64403 Parliament
-64401 Flagstaff
-64405 Richmond (?)
-   ```
- - How do we know what the difference between sample 0 and 1?
- If you look at the overlap between values in the columns of samp_0 and samp_1 you should find one column with very little overlap. From there it should be pretty easy.
+  - [Missing stop locations](missing_stop_locations.md)
+  - How do we know what the difference between sample 0 and 1? If you look at the overlap between values in the columns of samp_0 and samp_1 you should find one column with very little overlap. From there it should be pretty easy.
 
 ### What data do we have?
 

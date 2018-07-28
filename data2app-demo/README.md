@@ -26,8 +26,13 @@ open localhost:3000
 ## Done
 
 ```
+# create basic app
 npm install -g create-react-app
 create-react-app data2app-demo
+
+# add a D3js chart
+# edit src/BarChart.js
+yarn add d3-scale d3-selection
 ```
 
 ## Ideas

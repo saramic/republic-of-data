@@ -55,7 +55,7 @@ Melbourne Datathon 2018
   | Adam      |  9:30am|        |        | 6:00pm|
   | Ariel     | 10:30am|        |        |  late |
   | Dickson   |        |        |        |       |
-  | John      |        |        |        |       |
+  | John      |  9:00am|        |        | 5:00pm|
   | Michał    |        |        |        |       |
   | Michael M | 10:30am| 2:30pm |    4pm |   8pm |
   | Michael S | 10:30am| 5:00pm |        |       |

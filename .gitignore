@@ -67,4 +67,8 @@ MelbDatathon2018
 *.gpkg-shm
 *.gpkg-wal
 
+# people with no idea use RubyMine
 .idea/
+
+# mac users suck
+.DS_STORE

@@ -3,6 +3,9 @@
 ## Ideas
   * touch on as API - order me a coffee on arrival at office - what is the potential?
   * weather forcast - to drive pre-ordering parking - dictated by forecast not weather - could we get parking data?
+  * weather forecast for predicted destination
+  * auto recharge app based on my usage patterns
+  * personalised disruption alerts based on lines I often use
 
 ## Notes from app tutorial
 

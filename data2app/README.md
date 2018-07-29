@@ -28,5 +28,6 @@
 - Does the app facilitate business actions based on those insights?
 - Does the application effectively make use of current technology?
 - Is the application scalable to a real-world production environment?
+- predictive app when is the next not too full tram
 
 Demo app: https://github.com/tdszyman/datathon-tutorial

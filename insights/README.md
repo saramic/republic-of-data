@@ -21,7 +21,7 @@
   - behaviours of using myki when do they touch on off? how consistent is it? did it change 5 years ago? 2 hours window? how to maximise 2 hour buffer?
   - myki pass vs money? pay ad-hoc - what are all the myki policies and when did they change, what was the impact of the change?
   - daily cap - what are all the edge cases - touch on after 6pm - works overnight
-  - free tram zone - what is the effect - is the change within our data set? 3 years ago it started?
+  - free tram zone - what is the effect - is the change within our data set? 3 years ago it started? See [](./)
   - 8 and 55 changed to 58 - was this done due to data?
   - st kilda changes due to metro tunnel
   - tram lines down for construction, when? what was the impact?
@@ -40,11 +40,11 @@
   - school population growth?
   
 ## Answers
-
   - [What data do we have?](README.md#what-data-do-we-have)
   - [What is calendar.txt?](what_is_calendar_txt.ipynb)
   - [What is card_types.txt?](what_is_card_types_txt.ipynb)
   - [Missing stop locations](missing_stop_locations.md)
+  - [Free tram zone](free_tram_zone.md)
   - How do we know what the difference between sample 0 and 1? If you look at the overlap between values in the columns of samp_0 and samp_1 you should find one column with very little overlap. From there it should be pretty easy.
 
 ### What data do we have?

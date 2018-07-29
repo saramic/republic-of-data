@@ -35,9 +35,3 @@ create-react-app data2app-demo
 yarn add d3-scale d3-selection
 ```
 
-## Ideas
-  * touch on as API - order me a coffee on arrival at office - what is the potential?
-  * weather forcast - to drive pre-ordering parking - dictated by forecast
-    not weather - could we get parking data?
-  * how many people loose money touching on in free tram zone
-

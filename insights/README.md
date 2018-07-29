@@ -34,6 +34,9 @@
   - myki pass vs money? pay ad-hoc - what are all the myki policies and when did they change, what was the impact of the change?
   - daily cap - what are all the edge cases - touch on after 6pm - works overnight
   - free tram zone - what is the effect - is the change within our data set? 3 years ago it started? See [](./)
+  - how does the current zone system compare to a distance-based ticketing system?
+    - revenue vs cost
+    - who would benefit?
 
 ### Routes
   - 8 and 55 changed to 58 - was this done due to data?

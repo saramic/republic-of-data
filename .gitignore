@@ -60,6 +60,9 @@ rsconnect/
 # don't commit the data
 MelbDatathon2018
 
+# RStudio project file
+.Rproj.user
+
 # ignore temp files
 *~
 

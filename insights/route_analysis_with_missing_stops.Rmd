@@ -1,0 +1,87 @@
+---
+title: "Route analysis with missing stops"
+output: html_notebook
+---
+
+## Route 521
+
+Route 521 which has stop [7891 Don Rd](https://www.ptv.vic.gov.au/stop/view/7891/) has stops that are missing
+```
+24318 24447 11092 24380 24440 44542 44593 24001 24277 24303 24254 24281 24267
+```
+
+## libraries and authentication
+
+assuming pakages are installed - what is the typical way to do this? as a code block?
+```
+install.packages("bigrquery")
+install.packages("ggplot2")
+install.packages("readr")
+install.packages("dplyr")
+```
+
+```{r}
+library(bigrquery)
+library(ggplot2)
+library(dplyr)
+
+project <- "republic-of-data-2018"
+```
+
+## Events by branch
+
+```{r}
+sql <-
+"
+SELECT
+  RouteID
+  , StopID
+  , StopNameShort
+  , GPSLat
+  , GPSLong
+  , CONCAT(GPSLat, ',', GPSLong) as long_lat
+FROM clean.scans
+LEFT JOIN data.stop_locations ON StopID = StopLocationID
+WHERE RouteID = 521
+GROUP BY RouteID, StopID, StopNameShort, GPSLat, GPSLong, long_lat
+"
+
+df_stops <- data.frame(query_exec(sql, project = project), useLegacySql = FALSE)
+df_stops
+```
+
+```{r}
+# df_stops
+# df_stops$StopNameShort
+df_stops[!is.na(df_stops$StopNameShort),]
+# df_stops <- [!is.na(df_stops$StopNameShort),]
+df_stops_num <- transform(df_stops, Longitude = as.numeric(GPSLong), Latitude = as.numeric(GPSLat))
+# df_stops_no_locations <- df_stops %>% filter_all(any_vars(is.na(.))) # requires dplyr above
+#
+# df_stops_no_locations$StopID
+df_stops_num[!is.na(df_stops$StopNameShort),]
+```
+```{r}
+#install.packages("ggmap")
+library(ggmap)
+
+qmplot(Longitude, Latitude, data = df_stops_num[!is.na(df_stops$StopNameShort),], maptype = "toner-lite", color = I("red"))
+```
+The above is most likely route [683 - Chirnside Park - Warburton via Lilydale Station, Seville, Yarra Junction](https://www.ptv.vic.gov.au/route/view/13095)
+
+but the stop id's don't match the web page
+```{ruby}
+require "nokogiri"; require "open-uri"; doc = Nokogiri::HTML.parse(open("https://www.ptv.vic.gov.au/langsing/timetable?net=vic&line=04683&project=ttb&sup=+&itdLPxx_selLineDir=R&itdLPxx_selWDType=&global_line=12000")); puts doc.css("div a").map{|e| [e["href"], e.text].inspect }
+```
+
+
+```{r}
+#install.packages(c("tmap", "tmaptools"))
+# library("tmap")
+# library("tmaptools")
+#
+# df_stops_map <- df_stops[!is.na(df_stops$GPSLat) & !is.na(df_stops$GPSLong), ]
+# df_stops_map <- st_as_sf(df_stops_map, coords = c("GPSLong", "GPSLat"))
+#
+# df_stops_map <- set_projection(df_stops_map, current.projection = "longlat", projection = 27700)
+```

@@ -1,14 +1,70 @@
 # Missing Stop locations
 
-As mentioned in Fleep there are a number of missing stop locations. One team
-has looked at touch on touch off data to work some of these out.
-
 - [Subsequent touch on after missing stop](#subsequent-touch-on-after-missing-stop)
 - [Most frequent undocumented stops](#most-frequent-undocumented-stops)
 - [Finding by route](#finding-by-route)
 - [By PTV API](#by-ptv-api)
 
+## Number of missing stop locations
+
+also in [route_analysis_with_missing_stops.Rmd](route_analysis_with_missing_stops.Rmd) and [route_analysis_with_missing_stops.nb.html](route_analysis_with_missing_stops.nb.html)
+
+* based on `clean.scans` there are **1350** stops with no matching stop location
+  ```
+  SELECT StopID
+  FROM clean.scans
+  LEFT JOIN data.stop_locations on StopID = StopLocationID
+  WHERE StopLocationID IS NULL
+  GROUP BY StopID
+  ```
+
+* these have not been put into `clean.scans_with_stop_location_and_card_type` which feels unexpected and we should probably add them in with nil values.
+  ```
+  SELECT *
+  FROM clean.scans_with_stop_location_and_card_type
+  WHERE StopID IN (
+    SELECT StopID
+    FROM clean.scans
+    LEFT JOIN data.stop_locations on StopID = StopLocationID
+    WHERE StopLocationID IS NULL
+    GROUP BY StopID
+  )
+
+  -- OR
+
+  SELECT *
+  FROM clean.scans_with_stop_location_and_card_type
+  WHERE StopLocationID IS NULL
+  ```
+
+* looking at the PTV website uses the same ID's as the `stop_locations.txt` file
+  - https://www.ptv.vic.gov.au/stop/view/7891/
+  - from file
+    ```
+    grep ^7891 MelbDatathon2018/stop_locations.txt
+    7891|Don Road|Don Rd/Maroondah Hwy (Healesville)|Bus Bay|Healesville|3777
+    ```
+
+* the missing stops do not come back from the PTV site
+  - 64407 - believed to be Jolimont/MCG on Route 18
+    - https://www.ptv.vic.gov.au/stop/view/64407/ - DOES NOT WORK
+    - NOW https://www.ptv.vic.gov.au/stop/view/19979/
+    - and also in stop_locations.txt
+      ```
+      grep ^19979 MelbDatathon2018/stop_locations.txt
+      19979|Jolimont-MCG|Jolimont-MCG Railway Station (East Melbourne)|Platform|East Melbourne|3002
+      ```
+    - but the new code is not used in the scans we have
+      ```
+      SELECT *
+      FROM clean.scans_with_stop_location_and_card_type
+      WHERE StopID = 19979
+      ```
+
 ## Subsequent touch on after missing stop
+
+As mentioned in Fleep there are a number of missing stop locations. One team
+has looked at touch on touch off data to work some of these out.
 
 The ones identified by the group by the method
 

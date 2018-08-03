@@ -8,6 +8,8 @@
 
   - [ggplot](http://ggplot.yhathq.com/)
   - [Altair](https://altair-viz.github.io/) - next level python charts?
+  - [Plotly - Python](https://plot.ly/python/) - Interactive charts (Install the 2.7 if you want to use Cufflinks)
+  - [Ploty - R](https://plot.ly/r/) - Interactive charts
 
 ## Data2App - visualisations
 

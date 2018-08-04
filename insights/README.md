@@ -7,17 +7,14 @@
   - [What is card_types.txt?](what_is_card_types_txt.ipynb)
   - [Missing stop locations](missing_stop_locations.md)
   - [Free tram zone](free_tram_zone.md)
+  - [How do we know what the difference between sample 0 and 1?](how_samples_are_sampled.md)
 
 ## New Questions
 
-  - [MM] How do we know what the difference between sample 0 and 1? If you look at
-    the overlap between values in the columns of samp_0 and samp_1 you should
-    find one column with very little overlap. From there it should be pretty
-    easy.
   - [MM] what network connections can we find between different cardID's?
   - [MM] what regularity can we find by cardID and route?
   - [MM] what patterns can we find if we focus on a known area?
-    - say Hoddle St Collingwood, very heavy traffic, busses with altrnatives
+    - say Hoddle St Collingwood, very heavy traffic, busses with alternatives
       for tram and train, can we see how complete the data is.
 
 ## Questions

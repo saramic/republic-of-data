@@ -11,6 +11,8 @@ Melbourne Datathon 2018
     - [Google Big Query](https://console.cloud.google.com/bigquery?project=republic-of-data-2018&folder&organizationId)
       as a data source - use in Data lab and or local jupyter/RStudio
     - basic pipeline from data -> app - a deployed demo app
+    - review what we know so far
+    - narrow the focus?
   - What we are working on is in [Google Projects](https://github.com/saramic/republic-of-data/projects/1)
 
 ## Findings

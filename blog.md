@@ -20,7 +20,7 @@
 - Can we see people changing jobs or moving house?
 - Add GPS coordinates for the missing stops we have identified so far
 - Zone-based fares vs distance-based fares
-- Myki Money vs Myki pass
+- Myki money vs Myki pass
 
 ### Sat 28th July 9am - 5pm - datathon hackday 1
   * data pipeline in [Google Cloud Dataprep](https://console.cloud.google.com/dataprep?project=republic-of-data-2018&folder&organizationId)

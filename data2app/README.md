@@ -6,6 +6,7 @@
   * weather forecast for predicted destination
   * auto recharge app based on my usage patterns
   * personalised disruption alerts based on lines I often use
+  * app that tells you which suburb to live in to balance travel time, quality of life, etc
 
 ## Notes from app tutorial
 

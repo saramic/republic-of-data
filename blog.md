@@ -1,5 +1,27 @@
 # Republic of Data - Blog
 
+### Sun 5 Aug
+
+#### What have we learnt so far?
+- We know how our samples were generated
+- All train trips have vehicle id 0
+- Ratio of touch on / touch off is 2:1 (3:1 for trams)
+- Identified missing stops on the city loop
+- The city loop is its own line
+- When a train station is used by multiple lines, scans on that station use the lowest route id
+- There are outliers (300 scans on the same day)
+
+#### Areas to dig deeper
+- Classify travellers based on
+  * primary mode of travel
+  * frequency and time of travel
+  * concession type
+- Can we observe migrations of different demographic groups between suburbs / gentrification
+- Can we see people changing jobs or moving house?
+- Add GPS coordinates for the missing stops we have identified so far
+- Zone-based fares vs distance-based fares
+- Myki Money vs Myki pass
+
 ### Sat 28th July 9am - 5pm - datathon hackday 1
   * data pipeline in [Google Cloud Dataprep](https://console.cloud.google.com/dataprep?project=republic-of-data-2018&folder&organizationId)
   * and data in [Google Big Query](https://console.cloud.google.com/bigquery?project=republic-of-data-2018&folder&organizationId)

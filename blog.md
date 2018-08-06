@@ -48,7 +48,6 @@
       - PostGIS, QGIS, cartography, data munging, spatial analysis
       - I am always inspired by other people's passion, and the insights that
         come from other perspectives. Sharing the passion is what makes it fun
-        smile
     * Adam
       - machine learning, data science
       - software engineering, munging, data pipelines, data engineering

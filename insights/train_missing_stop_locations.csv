@@ -1,0 +1,9 @@
+StopLocationID,StopNameShort,StopNameLong,StopType,SuburbName,PostCode,RegionName,LocalGovernmentArea,StatDivision,GPSLat,GPSLong
+64401,Flagstaff,Flagstaff Railway Station (Melbourne City),Platform,Melbourne City,3000,Melbourne,Melbourne,Greater Metro,-37.811978,144.955653
+64402,Melbourne Central,Melbourne Central Railway Station (Melbourne City),Platform,Melbourne City,3000,Melbourne,Melbourne,Greater Metro,-37.809936,144.962599
+64403,Parliament,Parliament Railway Station (Melbourne City),Platform,Melbourne City,3000,Melbourne,Melbourne,Greater Metro,-37.811055,144.972907
+64404,Flinders Street,Flinders Street Railway Station (Melbourne City),Platform,Melbourne City,3000,Melbourne,Melbourne,Greater Metro,-37.818308,144.966967
+64405,Richmond,Richmond Railway Station (Richmond),Platform,Richmond,3121,Melbourne,Yarra,Greater Metro,-37.824072,144.990161
+64406,North Melbourne,North Melbourne Railway Station (West Melbourne),Platform,West Melbourne,3003,Melbourne,Melbourne,Greater Metro,-37.806309,144.941509
+64407,Jolimont-MCG,Jolimont-MCG Railway Station (East Melbourne),Platform,East Melbourne,3002,Melbourne,Melbourne,Greater Metro,-37.81653,144.984096
+64408,Southern Cross,Southern Cross Railway Station (Melbourne City),Platform,Melbourne City,3000,Melbourne,Melbourne,Greater Metro,-37.817933,144.951409

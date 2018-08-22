@@ -9,6 +9,29 @@
   - [Free tram zone](free_tram_zone.md)
   - [How do we know what the difference between sample 0 and 1?](how_samples_are_sampled.md)
 
+## Newer Questions
+  - [MM] Clifton Hill accidental express causing a delay for people who travel
+    to Jolimont and return to any of the stations in between. This would be
+    only a small group and during times that express trains run. Potentially
+    only affecting people who get on at Clifton Hill because otherwise they
+    would have come on an express train and unlikely to jump on another
+    express.
+  - [MM] Reverse loop, select number of people who touch on at Flinders St and
+    arrive faster on any Eltham or South Morang stations then other passengers.
+  - [MM] Flinders Amenities, users who touch on and off for a limited period at
+    Flinders St but do not travel.
+  - [MM] compare the variance between sample 0 and 1 to show how good a
+    predictor it is of the complete data set
+  - [MM] limit of touch on activity on trams
+  - [MM] public event chart
+  - [MM] infections - myki cards that travel with other myki cards, cards that
+    travel very regularily
+  - [MM] CBD-ers vs other style travellers
+  - [MM] above are certain patterns that could be tracked across the whole data
+    set to find anomolies in behaviour that could maybe create improved public
+    transport?
+  - [MM] some of the above may be minor and need the full data set
+
 ## New Questions
 
   - [MM] what network connections can we find between different cardID's?

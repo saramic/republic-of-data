@@ -15,6 +15,10 @@ Melbourne Datathon 2018
     - narrow the focus?
   - What we are working on is in [Google Projects](https://github.com/saramic/republic-of-data/projects/1)
 
+## Competition Submission Plans
+
+- [Data2App](data2app.md)
+
 ## Findings
 
 - [Insights](insights/README.md)

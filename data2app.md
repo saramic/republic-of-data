@@ -15,6 +15,7 @@
 **Then:**
 
   Analyse the impact on various dimensions:
+  
     * other routes in the area
     * number of users
     * users by user type (card type, CBD commuters, etc)
@@ -25,6 +26,7 @@
   * the time frame is changed
 
 **Then:**
+
   * the impact varies on the various dimentions
 
 ## App flow

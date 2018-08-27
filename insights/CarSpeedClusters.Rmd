@@ -1,0 +1,93 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(data.table)
+library(readr)
+library(tidyr)
+library(dplyr)
+library(Amelia)
+library(doParallel)
+
+setwd("C:/MelbDatathon2018")
+
+CarSpeeds <- fread('C:/MelbDatathon2018/car_speeds/melbourne_vehicle_traffic.csv')
+CarSpeeds$LMean <- as.list(lapply(strsplit(gsub("\\[|\\]", "",CarSpeeds$mean_speed), split=", "),function(x) as.numeric(x)))
+CarSpeeds$LSTD <-  as.list(lapply(strsplit(gsub("\\[|\\]", "",CarSpeeds$std_speed), split=", "),function(x) as.numeric(x)))
+
+```
+```{r}
+CarSpeeds <- as.data.table(CarSpeeds)
+
+for (i in 1:7396)
+{
+  A <- as.data.table(unnest(CarSpeeds[i,6]))
+  T <- transpose(A)
+  for(col in names(T)) set(T, i=which(T[[col]]==-1), j=col, value=NA)
+  if(i==1)
+    DT <- T
+  else if(i>1)
+     DT <- rbind(DT,T)
+}
+
+
+for (i in 1:7396)
+{
+  A <- as.data.table(unnest(CarSpeeds[i,7]))
+  T <- transpose(A)
+  for(col in names(T)) set(T, i=which(T[[col]]==-1), j=col, value=NA)
+  if(i==1)
+    DT_STD <- T
+  else if(i>1)
+    DT_STD <- rbind(DT_STD,T)
+}
+
+setnames(DT_STD,old = c(1:120),new = c("STD01","STD02","STD03","STD04","STD05","STD06","STD07","STD08","STD09","STD10",
+                                       "STD11","STD12","STD13","STD14","STD15","STD16","STD17","STD18","STD19","STD20",
+                                       "STD21","STD22",'STD23',"STD24","STD25","STD26","STD27",'STD28',"STD29","STD30",
+                                       "STD31","STD32","STD33","STD34","STD35","STD36","STD37","STD38","STD39","STD40",
+                                       "STD41","STD42","STD43","STD44","STD45","STD46","STD47","STD48","STD49","STD50",
+                                       "STD51","STD52","STD53","STD54","STD55","STD56","STD57","STD58","STD59","STD60",
+                                       "STD61","STD62","STD63","STD64","STD65","STD66","STD67","STD68","STD69",'STD70',
+                                       "STD71","STD72","STD73","STD74","STD75","STD76","STD77","STD78","STD79","STD80",
+                                       "STD81","STD82","STD83","STD84","STD85","STD86","STD87","STD88","STD89","STD90",
+                                       "STD91",'STD92','STD93',"STD94",'STD95',"STD96",'STD97',"STD98","STD99",'STD100',
+                                       "STD101","STD102",'STD103',"STD104",'STD105',"STD106","STD107",'STD108',"STD109","STD110",
+                                       "STD111","STD112","STD113","STD114","STD115","STD116","STD117","STD118","STD119","STD120"))
+
+Speeds <- as.data.frame(cbind(DT,DT_STD))
+
+```
+```{r}
+#Impute missing values
+set.seed(123)
+Speeds_fit <- amelia(Speeds, m=5, parallel = "multicore")
+IMP <- Speeds_fit$imputations
+ 
+Fit1 <-as.data.table(IMP$imp1)
+Fit2 <-as.data.table(IMP$imp2)
+Fit3 <-as.data.table(IMP$imp3)
+Fit4 <-as.data.table(IMP$imp4)
+Fit5 <-as.data.table(IMP$imp5)
+ 
+ISpeeds_DT <- (Fit1+Fit2+Fit3+Fit4+Fit5)/5
+Speed_Norm <- as.data.frame(scale(ISpeeds_DT))
+```
+```{r}
+k.max <- 30
+wss <- sapply(1:k.max, 
+              function(k){kmeans(Speed_Norm, k, nstart=50,iter.max = 50)$tot.withinss})
+
+plot(1:k.max, wss,
+     type="b", pch = 19, frame = FALSE, 
+     xlab="Number of clusters K",
+     ylab="Total within-clusters sum of squares")
+
+Clusters <- kmeans(Speed_Norm,25,nstart=50,iter.max = 100)
+CarSpeedsClusters <-as.data.table(cbind(CarSpeeds$`location index`,CarSpeeds$lat,CarSpeeds$lon,Clusters$cluster))
+setnames(CarSpeedsClusters,old = c(1:4),new = c("Location Index","Lat","Lon","cluster"))                                  
+head(CarSpeedsClusters)
+```
+

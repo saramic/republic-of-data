@@ -1,5 +1,31 @@
 # Install
 
+# Jupyter Lab
+
+To work on Jupyter notebooks without installing any extra Python packages locally:
+
+```bash
+docker run --name my-notebook --rm -p 8888:8888 -e JUPYTER_LAB_ENABLE=yes -v "$PWD":/home/jovyan/work jupyter/datascience-notebook:8d22c86ed4d7 start.sh jupyter lab
+```
+
+Open a new shell session to install the Google Cloud SDK and related packages:
+
+```bash
+docker exec -it my-notebook-container bash
+pip install google-cloud google-cloud-bigquery pandas-gbq
+```
+
+Save your changes to a new docker image:
+
+```bash
+docker commit my-notebook-container my-jupyter:v1
+```
+
+Next time, use the image you saved:
+```bash
+docker run --name my-notebook --rm -p 8888:8888 -e JUPYTER_LAB_ENABLE=yes -v "$PWD":/home/jovyan/work my-jupyter:v1 start.sh jupyter lab
+```
+
 # QGIS
 
   for exploring geospatial data
